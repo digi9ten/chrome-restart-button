@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Restart Chrome Button",
+  "description": "This extension will allow you to restart yur Chrome browser by the click of a button.",
+  "version": "1.0",
+  "content_security_policy": "default-src 'self'; style-src 'unsafe-inline'",
+  "browser_action": {
+    "default_title": "Restart Chrome",
+    "default_icon": "images/restart-icon-19x19.png",
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    "images/*",
+    "style/*",
+    "script/*"
+  ],
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+}
+
